@@ -21,7 +21,7 @@ export default function Home() {
   }
   return (
     <div className={styles.homeContainer}>
-        <h1>Video Sphere</h1>
+        <h1>Google Meet Clone</h1>
         <div className={styles.enterRoom}>
           <input placeholder='Enter Room ID' value={roomId} onChange={(e) => setRoomId(e?.target?.value)}/>
           <button onClick={joinRoom}>Join Room</button>
