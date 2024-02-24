@@ -20,7 +20,7 @@ const usePeer = () => {
     }, [])
     return {
         peer,
-        myID
+        myId
     }
 
     
